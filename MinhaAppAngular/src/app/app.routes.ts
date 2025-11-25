@@ -4,6 +4,8 @@ import { Sobre } from './institucional/sobre/sobre';
 import { Contato } from './institucional/contato/contato';
 import {Produtos} from './institucional/produtos/produtos';
 import {Features} from './institucional/features/features';
+import { DataBinding } from './demos/data-binding/data-binding';
+import { FormsModule } from '@angular/forms';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -12,4 +14,5 @@ export const routes: Routes = [
   { path: 'contato', component: Contato },
   { path: 'produtos', component: Produtos},
   { path: 'features', component: Features},
+  { path: 'data-binding', component: DataBinding }
 ];
