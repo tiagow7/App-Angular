@@ -6,6 +6,7 @@ import {Produtos} from './institucional/produtos/produtos';
 import {Features} from './institucional/features/features';
 import { DataBinding } from './demos/data-binding/data-binding';
 import { FormsModule } from '@angular/forms';
+import { produtoService } from './produtos/produtos.service';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
